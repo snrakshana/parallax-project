@@ -45,7 +45,7 @@ export default function ProductCard({
                       <img
                         className="product-image rounded-3"
                         src={image}
-                        alt="product image"
+                        alt="product"
                       />
                     </div>
                   ))}
@@ -55,7 +55,7 @@ export default function ProductCard({
                 <div className="text-primary lh-sm">{products[index]?.id}</div>
                 <div className="lh-sm">{products[index]?.name}</div>
                 <div className="lh-sm">
-                  Rs. {products[index]?.price} | {products[index]?.quantity}{" "}
+                  Rs. {products[index]?.price} | {products[index]?.quantity}
                   pieces
                 </div>
               </div>
